@@ -29,7 +29,7 @@
 <script>
     $.ajax({
         type: "GET",
-        url: "http://localhost:3000/api/books?limit=3&ord=asc", //ascending하게 배열하기 위함
+        url: "/api/books?limit=3&ord=asc", //ascending하게 배열하기 위함
         success: (data, status, xhr)=>{
             let template= '';
 
